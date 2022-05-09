@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5251D2328237A62007ECDCD /* KeyToSimonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D2228237A62007ECDCD /* KeyToSimonApp.swift */; };
+		C5251D2528237A62007ECDCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D2428237A62007ECDCD /* ContentView.swift */; };
+		C5251D2728237A63007ECDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5251D2628237A63007ECDCD /* Assets.xcassets */; };
+		C5251D2A28237A63007ECDCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5251D2928237A63007ECDCD /* Preview Assets.xcassets */; };
+		C5251D3C28237CD8007ECDCD /* MainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D3928237CD7007ECDCD /* MainButtonStyle.swift */; };
+		C5251D3D28237CD8007ECDCD /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D3A28237CD7007ECDCD /* LoadData.swift */; };
+		C5251D4028237CFC007ECDCD /* ValueList.json in Resources */ = {isa = PBXBuildFile; fileRef = C5251D3F28237CFC007ECDCD /* ValueList.json */; };
+		C5251D4228237D05007ECDCD /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D4128237D05007ECDCD /* SwiftUIView.swift */; };
+		C5251D4628237D10007ECDCD /* KeyValueContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D4328237D10007ECDCD /* KeyValueContentView.swift */; };
+		C5251D4728237D10007ECDCD /* KeyValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D4428237D10007ECDCD /* KeyValueView.swift */; };
+		C5251D4828237D10007ECDCD /* KeyValueListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D4528237D10007ECDCD /* KeyValueListView.swift */; };
+		C5251D4D28237D40007ECDCD /* HIGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D4B28237D40007ECDCD /* HIGView.swift */; };
+		C5251D4E28237D40007ECDCD /* PlayGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D4C28237D40007ECDCD /* PlayGroundView.swift */; };
+		C5251D5028237D70007ECDCD /* BusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D4F28237D70007ECDCD /* BusinessView.swift */; };
+		C5251D5428237E3B007ECDCD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D5328237E3B007ECDCD /* DetailView.swift */; };
+		C5251D5F2823C41C007ECDCD /* IntroduceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5251D5E2823C41C007ECDCD /* IntroduceView.swift */; };
+		C5251D612823C6A3007ECDCD /* MyIntroduce.png in Resources */ = {isa = PBXBuildFile; fileRef = C5251D602823C6A3007ECDCD /* MyIntroduce.png */; };
+		C56873362823F9C100A62006 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56873352823F9C100A62006 /* MailView.swift */; };
+		C56873382824051700A62006 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56873372824051700A62006 /* EmailView.swift */; };
+		C568733E2824209D00A62006 /* SimplicityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568733D2824209D00A62006 /* SimplicityView.swift */; };
+		C56873402824213900A62006 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568733F2824213900A62006 /* ConnectionView.swift */; };
+		C56873422824215D00A62006 /* BigIdeaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56873412824215D00A62006 /* BigIdeaView.swift */; };
+		C56873442824219500A62006 /* HumanityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56873432824219500A62006 /* HumanityView.swift */; };
+		C5687346282421AC00A62006 /* BroadPerspectiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5687345282421AC00A62006 /* BroadPerspectiveView.swift */; };
+		C5687350282425FC00A62006 /* KeyWithSimon.gif in Resources */ = {isa = PBXBuildFile; fileRef = C568734F282425FC00A62006 /* KeyWithSimon.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5251D1F28237A62007ECDCD /* KeyToSimon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyToSimon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5251D2228237A62007ECDCD /* KeyToSimonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyToSimonApp.swift; sourceTree = "<group>"; };
+		C5251D2428237A62007ECDCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5251D2628237A63007ECDCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5251D2928237A63007ECDCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5251D3928237CD7007ECDCD /* MainButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButtonStyle.swift; sourceTree = "<group>"; };
+		C5251D3A28237CD7007ECDCD /* LoadData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
+		C5251D3F28237CFC007ECDCD /* ValueList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ValueList.json; sourceTree = "<group>"; };
+		C5251D4128237D05007ECDCD /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		C5251D4328237D10007ECDCD /* KeyValueContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueContentView.swift; sourceTree = "<group>"; };
+		C5251D4428237D10007ECDCD /* KeyValueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueView.swift; sourceTree = "<group>"; };
+		C5251D4528237D10007ECDCD /* KeyValueListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueListView.swift; sourceTree = "<group>"; };
+		C5251D4B28237D40007ECDCD /* HIGView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIGView.swift; sourceTree = "<group>"; };
+		C5251D4C28237D40007ECDCD /* PlayGroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGroundView.swift; sourceTree = "<group>"; };
+		C5251D4F28237D70007ECDCD /* BusinessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessView.swift; sourceTree = "<group>"; };
+		C5251D5328237E3B007ECDCD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C5251D5E2823C41C007ECDCD /* IntroduceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceView.swift; sourceTree = "<group>"; };
+		C5251D602823C6A3007ECDCD /* MyIntroduce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyIntroduce.png; sourceTree = "<group>"; };
+		C56873352823F9C100A62006 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		C56873372824051700A62006 /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		C568733D2824209D00A62006 /* SimplicityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplicityView.swift; sourceTree = "<group>"; };
+		C568733F2824213900A62006 /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		C56873412824215D00A62006 /* BigIdeaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigIdeaView.swift; sourceTree = "<group>"; };
+		C56873432824219500A62006 /* HumanityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanityView.swift; sourceTree = "<group>"; };
+		C5687345282421AC00A62006 /* BroadPerspectiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadPerspectiveView.swift; sourceTree = "<group>"; };
+		C568734F282425FC00A62006 /* KeyWithSimon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = KeyWithSimon.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5251D1C28237A62007ECDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5251D1628237A62007ECDCD = {
+			isa = PBXGroup;
+			children = (
+				C5251D2128237A62007ECDCD /* KeyToSimon */,
+				C5251D2028237A62007ECDCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5251D2028237A62007ECDCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5251D1F28237A62007ECDCD /* KeyToSimon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5251D2128237A62007ECDCD /* KeyToSimon */ = {
+			isa = PBXGroup;
+			children = (
+				C5251D5B2823C15E007ECDCD /* Introduce */,
+				C5251D3828237BCE007ECDCD /* Utility */,
+				C5251D3628237BA9007ECDCD /* MockData */,
+				C5251D3528237BA0007ECDCD /* SwiftUI */,
+				C5251D3328237B86007ECDCD /* KeyValues */,
+				C5251D3228237B7B007ECDCD /* HIG */,
+				C5251D2228237A62007ECDCD /* KeyToSimonApp.swift */,
+				C5251D3028237B54007ECDCD /* Business */,
+				C5251D2628237A63007ECDCD /* Assets.xcassets */,
+				C5251D5328237E3B007ECDCD /* DetailView.swift */,
+				C5251D2428237A62007ECDCD /* ContentView.swift */,
+				C56873352823F9C100A62006 /* MailView.swift */,
+				C5251D2828237A63007ECDCD /* Preview Content */,
+			);
+			path = KeyToSimon;
+			sourceTree = "<group>";
+		};
+		C5251D2828237A63007ECDCD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C5251D2928237A63007ECDCD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5251D3028237B54007ECDCD /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				C5251D4F28237D70007ECDCD /* BusinessView.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		C5251D3228237B7B007ECDCD /* HIG */ = {
+			isa = PBXGroup;
+			children = (
+				C5251D4B28237D40007ECDCD /* HIGView.swift */,
+				C5251D4C28237D40007ECDCD /* PlayGroundView.swift */,
+			);
+			path = HIG;
+			sourceTree = "<group>";
+		};
+		C5251D3328237B86007ECDCD /* KeyValues */ = {
+			isa = PBXGroup;
+			children = (
+				C5251D4328237D10007ECDCD /* KeyValueContentView.swift */,
+				C5251D4528237D10007ECDCD /* KeyValueListView.swift */,
+				C5251D4428237D10007ECDCD /* KeyValueView.swift */,
+				C568733D2824209D00A62006 /* SimplicityView.swift */,
+				C568733F2824213900A62006 /* ConnectionView.swift */,
+				C56873412824215D00A62006 /* BigIdeaView.swift */,
+				C56873432824219500A62006 /* HumanityView.swift */,
+				C5687345282421AC00A62006 /* BroadPerspectiveView.swift */,
+			);
+			path = KeyValues;
+			sourceTree = "<group>";
+		};
+		C5251D3528237BA0007ECDCD /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				C5251D4128237D05007ECDCD /* SwiftUIView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		C5251D3628237BA9007ECDCD /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				C5251D3F28237CFC007ECDCD /* ValueList.json */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		C5251D3828237BCE007ECDCD /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C5251D3A28237CD7007ECDCD /* LoadData.swift */,
+				C5251D3928237CD7007ECDCD /* MainButtonStyle.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C5251D5B2823C15E007ECDCD /* Introduce */ = {
+			isa = PBXGroup;
+			children = (
+				C5251D602823C6A3007ECDCD /* MyIntroduce.png */,
+				C568734F282425FC00A62006 /* KeyWithSimon.gif */,
+				C5251D5E2823C41C007ECDCD /* IntroduceView.swift */,
+				C56873372824051700A62006 /* EmailView.swift */,
+			);
+			path = Introduce;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5251D1E28237A62007ECDCD /* KeyToSimon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5251D2D28237A63007ECDCD /* Build configuration list for PBXNativeTarget "KeyToSimon" */;
+			buildPhases = (
+				C5251D1B28237A62007ECDCD /* Sources */,
+				C5251D1C28237A62007ECDCD /* Frameworks */,
+				C5251D1D28237A62007ECDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyToSimon;
+			productName = KeyToSimon;
+			productReference = C5251D1F28237A62007ECDCD /* KeyToSimon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5251D1728237A62007ECDCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C5251D1E28237A62007ECDCD = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C5251D1A28237A62007ECDCD /* Build configuration list for PBXProject "KeyToSimon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5251D1628237A62007ECDCD;
+			productRefGroup = C5251D2028237A62007ECDCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5251D1E28237A62007ECDCD /* KeyToSimon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5251D1D28237A62007ECDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5251D2A28237A63007ECDCD /* Preview Assets.xcassets in Resources */,
+				C5251D2728237A63007ECDCD /* Assets.xcassets in Resources */,
+				C5687350282425FC00A62006 /* KeyWithSimon.gif in Resources */,
+				C5251D612823C6A3007ECDCD /* MyIntroduce.png in Resources */,
+				C5251D4028237CFC007ECDCD /* ValueList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5251D1B28237A62007ECDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56873422824215D00A62006 /* BigIdeaView.swift in Sources */,
+				C5251D4828237D10007ECDCD /* KeyValueListView.swift in Sources */,
+				C568733E2824209D00A62006 /* SimplicityView.swift in Sources */,
+				C5251D4628237D10007ECDCD /* KeyValueContentView.swift in Sources */,
+				C5251D2528237A62007ECDCD /* ContentView.swift in Sources */,
+				C5251D2328237A62007ECDCD /* KeyToSimonApp.swift in Sources */,
+				C5251D4228237D05007ECDCD /* SwiftUIView.swift in Sources */,
+				C56873402824213900A62006 /* ConnectionView.swift in Sources */,
+				C56873362823F9C100A62006 /* MailView.swift in Sources */,
+				C5251D3C28237CD8007ECDCD /* MainButtonStyle.swift in Sources */,
+				C5251D5F2823C41C007ECDCD /* IntroduceView.swift in Sources */,
+				C5251D4E28237D40007ECDCD /* PlayGroundView.swift in Sources */,
+				C5251D5428237E3B007ECDCD /* DetailView.swift in Sources */,
+				C56873442824219500A62006 /* HumanityView.swift in Sources */,
+				C5251D3D28237CD8007ECDCD /* LoadData.swift in Sources */,
+				C5251D5028237D70007ECDCD /* BusinessView.swift in Sources */,
+				C5251D4728237D10007ECDCD /* KeyValueView.swift in Sources */,
+				C5251D4D28237D40007ECDCD /* HIGView.swift in Sources */,
+				C5687346282421AC00A62006 /* BroadPerspectiveView.swift in Sources */,
+				C56873382824051700A62006 /* EmailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C5251D2B28237A63007ECDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5251D2C28237A63007ECDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5251D2E28237A63007ECDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyToSimon/Preview Content\"";
+				DEVELOPMENT_TEAM = 956H2C4NC8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Simon.KeyToSimon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5251D2F28237A63007ECDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyToSimon/Preview Content\"";
+				DEVELOPMENT_TEAM = 956H2C4NC8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Simon.KeyToSimon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5251D1A28237A62007ECDCD /* Build configuration list for PBXProject "KeyToSimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5251D2B28237A63007ECDCD /* Debug */,
+				C5251D2C28237A63007ECDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5251D2D28237A63007ECDCD /* Build configuration list for PBXNativeTarget "KeyToSimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5251D2E28237A63007ECDCD /* Debug */,
+				C5251D2F28237A63007ECDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5251D1728237A62007ECDCD /* Project object */;
+}
